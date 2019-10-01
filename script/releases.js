@@ -6,6 +6,7 @@ const path = require('path')
 const Bottleneck = require('bottleneck')
 const github = require('../lib/github')
 const parseGitUrl = require('github-url-to-object')
+const testgit = require('gitadd-hacktobfest-2')
 
 const outputFile = path.join(__dirname, '../meta/releases.json')
 const oldReleaseData = require(outputFile)
